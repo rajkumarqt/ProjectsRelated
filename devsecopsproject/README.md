@@ -21,3 +21,18 @@ docker info
 ```
 docker image build -t <your-image-name>:latest .
 ```
+![Preview](Images/jenkins3.png)
+
+* to create the container based on the image.
+```
+docker container run -d -P rajkumar207/aplhine
+docker image ls
+docker container ls
+```
+![Preview](Images/jenkins4.png)
+
+* to access the application 
+```
+http://<public-ip-address>:port-number
+```
+![Preview](Images/jenkins5.png)
