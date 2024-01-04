@@ -89,4 +89,15 @@ http://<pub-id-address>:8080
 ![Preview](Images/jenkins21.png)
 ![Preview](Images/jenkins22.png)
 ![Preview](Images/jenkins23.png)
-![Preview](Images/jenkins21.png)
+
+[Refer Here](https://github.com/rajkumarqt/ProjectsRelated/blob/main/Jenkinsfile) for the jenkins pipeline code
+
+* The build was failed due to permission denied for that we need to reboot the server 
+```
+sudo reboot
+# relogin the server and click on Build now
+```
+![Preview](Images/jenkins24.png)
+![Preview](Images/jenkins25.png)
+
+
