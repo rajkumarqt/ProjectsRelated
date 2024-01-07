@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Ensure kubernetes cluster is up') {
             steps {
-                sh "cd deployment/terraform && terraform init && terraform apply -auto-approve"
+                sh "cd deployment/k8s/ && eksctl create cluster --config-file=cluster.yaml"
             }
         }
         stage('deploy to k8s') {
